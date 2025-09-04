@@ -57,8 +57,6 @@ const Footer: React.FC = () => {
               <li><a href="#productos" className="hover:text-vintage-gold transition-colors duration-300">Productos</a></li>
               <li><a href="#sobre-nosotros" className="hover:text-vintage-gold transition-colors duration-300">Sobre Nosotros</a></li>
               <li><a href="#contacto" className="hover:text-vintage-gold transition-colors duration-300">Contacto</a></li>
-              <li><a href="#" className="hover:text-vintage-gold transition-colors duration-300">Pedidos Especiales</a></li>
-              <li><a href="#" className="hover:text-vintage-gold transition-colors duration-300">Catering</a></li>
             </ul>
           </div>
 
@@ -112,7 +110,7 @@ const Footer: React.FC = () => {
 
           <div className="text-center">
             <p className="font-crimson text-antique-white/90 mb-4 text-lg">
-              © 2024 El Postrecito de Isabel. Todos los derechos reservados.
+              © 2025 El Postrecito de Isabel. Todos los derechos reservados.
             </p>
             <p className="font-dancing text-2xl text-vintage-gold italic vintage-text-shadow">
               "Endulzando vidas desde 2000"
