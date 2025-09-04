@@ -1,4 +1,5 @@
 import React from 'react';
+const rb8 = 'rb8.jpg';
 
 const AboutSection: React.FC = () => {
   return (
@@ -35,7 +36,7 @@ const AboutSection: React.FC = () => {
               <div className="absolute -inset-4 bg-sky-blue/60 rounded-lg transform rotate-1"></div>
               <div className="relative bg-aged-paper p-6 rounded-lg shadow-2xl ornate-corner">
                 <img 
-                  src="rb8.jpg"
+                  src={rb8}
                   alt="Nuestra historia"
                   className="w-full h-96 object-cover rounded-lg sepia-enhanced"
                 />
