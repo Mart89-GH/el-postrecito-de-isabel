@@ -2,7 +2,7 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
-const logo = '/El postrecito logo sin fondo.png'
+const logo = 'El postrecito logo sin fondo.png'
 
 function App() {
   return (

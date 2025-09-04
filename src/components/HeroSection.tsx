@@ -1,7 +1,7 @@
 import React from 'react';
-const pastelesClasicos = '/pasteles-clasicos.png';
-const cupcakesArtesanales = '/cupcakes-artesanales.png';
-const tartasEspeciales = '/tartas-especiales.jpg';
+const pastelesClasicos = 'pasteles-clasicos.png';
+const cupcakesArtesanales = 'cupcakes-artesanales.png';
+const tartasEspeciales = 'tartas-especiales.jpg';
 
 const HeroSection: React.FC = () => {
   return (

@@ -9,11 +9,21 @@ export default defineConfig({
     strictPort: true,
     host: true
   },
-  base: './',
+  base: '/',
   resolve: {
     alias: {
       '@': '/src',
       '@assets': '/src/assets'
+    }
+  },
+  build: {
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[hash][extname]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js'
+      }
     }
   }
 })
