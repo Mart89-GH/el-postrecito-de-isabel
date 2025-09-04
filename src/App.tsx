@@ -2,6 +2,7 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+const logo = '/El postrecito logo sin fondo.png'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <img 
-                src="/src/assets/El postrecito logo sin fondo.png" 
+                src={logo} 
                 alt="El Postrecito de Isabel Logo" 
                 className="w-20 h-20 object-contain"
               />

@@ -1,4 +1,7 @@
 import React from 'react';
+const pastelesClasicos = '/pasteles-clasicos.png';
+const cupcakesArtesanales = '/cupcakes-artesanales.png';
+const tartasEspeciales = '/tartas-especiales.jpg';
 
 const HeroSection: React.FC = () => {
   return (
@@ -24,7 +27,7 @@ const HeroSection: React.FC = () => {
             <div className="relative bg-aged-paper p-8 rounded-lg shadow-2xl aged-paper ornate-corner">
               <div className="aspect-square bg-gradient-to-br from-sky-blue/20 to-vintage-brown/20 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/src/assets/pasteles-clasicos.png" 
+                  src={pastelesClasicos} 
                   alt="Pasteles clásicos"
                   className="w-full h-full object-cover rounded-lg sepia-enhanced"
                 />
@@ -41,7 +44,7 @@ const HeroSection: React.FC = () => {
             <div className="relative bg-aged-paper p-8 rounded-lg shadow-2xl aged-paper ornate-corner">
               <div className="aspect-square bg-gradient-to-br from-vintage-brown/20 to-sky-blue/20 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/src/assets/cupcakes-artesanales.png" 
+                  src={cupcakesArtesanales} 
                   alt="Cupcakes artesanales"
                   className="w-full h-full object-cover rounded-lg sepia-enhanced"
                 />
@@ -58,7 +61,7 @@ const HeroSection: React.FC = () => {
             <div className="relative bg-aged-paper p-8 rounded-lg shadow-2xl aged-paper ornate-corner">
               <div className="aspect-square bg-gradient-to-br from-sky-blue/20 to-vintage-brown/20 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/src/assets/tartas-especiales.jpg" 
+                  src={tartasEspeciales} 
                   alt="Tartas especiales"
                   className="w-full h-full object-cover rounded-lg sepia-enhanced"
                 />
