@@ -1,5 +1,5 @@
 import React from 'react';
-const rb8 = 'rb8.jpg';
+import rb8 from '../assets/rb8.jpg';
 
 const AboutSection: React.FC = () => {
   return (
