@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom vintage fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Custom vintage styles */
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-crimson {
+  font-family: 'Crimson Text', serif;
+}
+
+/* Paper texture background */
+.bg-paper-texture {
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(112, 66, 20, 0.15) 0%, rgba(255, 255, 255, 0) 50%),
+    radial-gradient(circle at 80% 20%, rgba(139, 69, 19, 0.1) 0%, rgba(255, 255, 255, 0) 50%),
+    radial-gradient(circle at 40% 80%, rgba(112, 66, 20, 0.08) 0%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(45deg, rgba(244, 241, 232, 0.8) 0%, rgba(247, 243, 233, 0.9) 100%);
+}
+
+/* Enhanced vintage ornamental borders */
+.ornate-border {
+  position: relative;
+  border: 3px solid #8B4513;
+  border-radius: 8px;
+}
+
+.ornate-border::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 1px solid #D4AF37;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.ornate-border::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle, #D4AF37 30%, #8B4513 70%);
+  border-radius: 50%;
+  box-shadow: 
+    calc(100% + 16px) 0 0 0 #D4AF37,
+    calc(200% + 32px) 0 0 0 #D4AF37;
+}
+
+/* Polaroid effect */
+.polaroid {
+  background: #fff;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transform: rotate(-2deg);
+  transition: transform 0.3s ease;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+/* Enhanced vintage lace pattern */
+.lace-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.8) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.6) 1px, transparent 1px),
+    radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.3) 1px, transparent 1px);
+  background-size: 24px 24px, 12px 12px, 18px 18px;
+  background-position: 0 0, 6px 6px, 12px 12px;
+}
+
+/* Enhanced aged paper effect */
+.aged-paper {
+  background: 
+    linear-gradient(135deg, #F4F1E8 0%, #F7F3E9 25%, #F5F5DC 50%, #F4F1E8 75%, #F7F3E9 100%),
+    radial-gradient(ellipse at top left, rgba(112, 66, 20, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(139, 69, 19, 0.03) 0%, transparent 50%);
+  position: relative;
+}
+
+.aged-paper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 15% 25%, rgba(112, 66, 20, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 75%, rgba(139, 69, 19, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 60% 10%, rgba(212, 175, 55, 0.04) 0%, transparent 30%),
+    radial-gradient(circle at 30% 90%, rgba(112, 66, 20, 0.05) 0%, transparent 35%);
+  pointer-events: none;
+}
+
+/* Vintage stain effects */
+.vintage-stain {
+  position: relative;
+}
+
+.vintage-stain::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  width: 20px;
+  height: 15px;
+  background: radial-gradient(ellipse, rgba(112, 66, 20, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: rotate(-15deg);
+}
+
+/* Ornate corner decorations */
+.ornate-corner {
+  position: relative;
+}
+
+.ornate-corner::before,
+.ornate-corner::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: 
+    radial-gradient(circle at center, #D4AF37 2px, transparent 2px),
+    radial-gradient(circle at 25% 25%, #8B4513 1px, transparent 1px);
+  background-size: 8px 8px, 4px 4px;
+}
+
+.ornate-corner::before {
+  top: -10px;
+  left: -10px;
+  border-top: 2px solid #8B4513;
+  border-left: 2px solid #8B4513;
+  border-top-left-radius: 8px;
+}
+
+.ornate-corner::after {
+  bottom: -10px;
+  right: -10px;
+  border-bottom: 2px solid #8B4513;
+  border-right: 2px solid #8B4513;
+  border-bottom-right-radius: 8px;
+}
+
+/* Enhanced sepia filter */
+.sepia-enhanced {
+  filter: sepia(0.8) contrast(1.1) brightness(0.95) saturate(0.9);
+  transition: filter 0.3s ease;
+}
+
+.sepia-enhanced:hover {
+  filter: sepia(0.6) contrast(1.2) brightness(1.05) saturate(1.1);
+}
+
+/* Vintage text shadow */
+.vintage-text-shadow {
+  text-shadow: 
+    2px 2px 0px rgba(112, 66, 20, 0.3),
+    4px 4px 8px rgba(139, 69, 19, 0.2);
+}
