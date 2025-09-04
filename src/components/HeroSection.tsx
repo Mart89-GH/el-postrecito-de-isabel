@@ -14,8 +14,8 @@ const HeroSection: React.FC = () => {
             Servicio de Repostería Online a Demanda
           </h2>
           <p className="text-2xl font-crimson text-sepia max-w-3xl mx-auto leading-relaxed">
-            Desde 1975, creamos momentos especiales con nuestros pasteles artesanales bajo pedido. 
-            Contáctanos para solicitar tu dulce personalizado, elaborado con amor y las mejores tradiciones familiares.
+            Desde 1975, creamos momentos especiales con nuestros pasteles artesanales. 
+            Elaborados con amor y las mejores tradiciones familiares.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h3 className="text-3xl font-dancing text-sepia text-center mb-3 vintage-text-shadow">Pasteles Clásicos</h3>
-              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Recetas tradicionales bajo pedido</p>
+              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Recetas tradicionales</p>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h3 className="text-3xl font-dancing text-sepia text-center mb-3 vintage-text-shadow">Cupcakes Artesanales</h3>
-              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Pequeñas obras de arte personalizadas</p>
+              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Pequeñas obras de arte</p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ const HeroSection: React.FC = () => {
                 />
               </div>
               <h3 className="text-3xl font-dancing text-sepia text-center mb-3 vintage-text-shadow">Tartas Especiales</h3>
-              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Diseños únicos para tus celebraciones</p>
+              <p className="text-sepia font-crimson text-center text-lg leading-relaxed">Diseños únicos</p>
             </div>
           </div>
         </div>
